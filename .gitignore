@@ -1,3 +1,10 @@
 node_modules/
 .DS_Store
 .env
+
+
+# this file tells GitHub to ignore any items listed within it when pushing changes
+# to remote repo. For example, because we don't want to back up the entirety
+# of the node library, we add "node_modules" to the .gitignore file. We know that 
+# they will be spared from being saved to the remote repo because the node_modules 
+# folder is grayed out in the explorer view. 

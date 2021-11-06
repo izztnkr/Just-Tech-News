@@ -90,3 +90,8 @@ router.delete("/:id", (req, res) => {
 });
 
 module.exports = router;
+
+// This is where we create routes to work
+//with the User model to perform CRUD
+//(CREATE, READ, UPDATE, & DELETE) operations
+//using Express.

@@ -62,3 +62,10 @@ User.init(
 );
 
 module.exports = User;
+
+//Here we create our own JavaScript class and define the columns,
+//data types, and any other rules we need the data to adhere to
+// by using Sequelize's model class.
+//This class will serve as a layer between the API and the database
+// and will handle all transactions of data between the two.  
+//using Sequelize
